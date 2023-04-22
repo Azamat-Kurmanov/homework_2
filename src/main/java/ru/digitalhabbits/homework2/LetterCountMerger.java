@@ -11,6 +11,9 @@ import java.util.Map;
  */
 public interface LetterCountMerger {
 
-    Map<Character, Long> merge(Map<Character, Long> first, Map<Character, Long> second);
+//    Map<Character, Long> merge(Map<Character, Long> first, Map<Character, Long> second);
 
+    void merge(Map<Character, Long> characterLongMap);
+
+    Map<Character, Long> totalCount();
 }
